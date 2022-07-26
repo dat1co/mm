@@ -1,0 +1,132 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.moneymanager"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\datico\AndroidStudioProjects\MoneyManager2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\datico\AndroidStudioProjects\MoneyManager2\app\src\main\AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:20.0.5] C:\Users\datico\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:25:5-79
+13-->[com.google.firebase:firebase-database:20.0.5] C:\Users\datico\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:25:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:20.0.5] C:\Users\datico\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:26:5-67
+14-->[com.google.firebase:firebase-database:20.0.5] C:\Users\datico\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:26:22-64
+15
+16    <application
+16-->C:\Users\datico\AndroidStudioProjects\MoneyManager2\app\src\main\AndroidManifest.xml:6:5-34:19
+17        android:allowBackup="true"
+17-->C:\Users\datico\AndroidStudioProjects\MoneyManager2\app\src\main\AndroidManifest.xml:7:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.5.0] C:\Users\datico\.gradle\caches\transforms-3\8dc01d593f799e8b774800a53f353e1d\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+19        android:dataExtractionRules="@xml/data_extraction_rules"
+19-->C:\Users\datico\AndroidStudioProjects\MoneyManager2\app\src\main\AndroidManifest.xml:8:9-65
+20        android:debuggable="true"
+21        android:fullBackupContent="@xml/backup_rules"
+21-->C:\Users\datico\AndroidStudioProjects\MoneyManager2\app\src\main\AndroidManifest.xml:9:9-54
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\datico\AndroidStudioProjects\MoneyManager2\app\src\main\AndroidManifest.xml:10:9-43
+23        android:label="@string/app_name"
+23-->C:\Users\datico\AndroidStudioProjects\MoneyManager2\app\src\main\AndroidManifest.xml:11:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\datico\AndroidStudioProjects\MoneyManager2\app\src\main\AndroidManifest.xml:12:9-54
+25        android:supportsRtl="true"
+25-->C:\Users\datico\AndroidStudioProjects\MoneyManager2\app\src\main\AndroidManifest.xml:13:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.MoneyManager" >
+27-->C:\Users\datico\AndroidStudioProjects\MoneyManager2\app\src\main\AndroidManifest.xml:14:9-50
+28        <activity
+28-->C:\Users\datico\AndroidStudioProjects\MoneyManager2\app\src\main\AndroidManifest.xml:16:9-18:40
+29            android:name="com.example.moneymanager.BankActivity"
+29-->C:\Users\datico\AndroidStudioProjects\MoneyManager2\app\src\main\AndroidManifest.xml:17:13-41
+30            android:exported="false" />
+30-->C:\Users\datico\AndroidStudioProjects\MoneyManager2\app\src\main\AndroidManifest.xml:18:13-37
+31        <activity
+31-->C:\Users\datico\AndroidStudioProjects\MoneyManager2\app\src\main\AndroidManifest.xml:19:9-21:40
+32            android:name="com.example.moneymanager.OutlayActivity"
+32-->C:\Users\datico\AndroidStudioProjects\MoneyManager2\app\src\main\AndroidManifest.xml:20:13-43
+33            android:exported="false" />
+33-->C:\Users\datico\AndroidStudioProjects\MoneyManager2\app\src\main\AndroidManifest.xml:21:13-37
+34        <activity
+34-->C:\Users\datico\AndroidStudioProjects\MoneyManager2\app\src\main\AndroidManifest.xml:22:9-24:40
+35            android:name="com.example.moneymanager.MoneyActivity"
+35-->C:\Users\datico\AndroidStudioProjects\MoneyManager2\app\src\main\AndroidManifest.xml:23:13-42
+36            android:exported="false" />
+36-->C:\Users\datico\AndroidStudioProjects\MoneyManager2\app\src\main\AndroidManifest.xml:24:13-37
+37        <activity
+37-->C:\Users\datico\AndroidStudioProjects\MoneyManager2\app\src\main\AndroidManifest.xml:25:9-33:20
+38            android:name="com.example.moneymanager.MainActivity"
+38-->C:\Users\datico\AndroidStudioProjects\MoneyManager2\app\src\main\AndroidManifest.xml:26:13-41
+39            android:exported="true" >
+39-->C:\Users\datico\AndroidStudioProjects\MoneyManager2\app\src\main\AndroidManifest.xml:27:13-36
+40            <intent-filter>
+40-->C:\Users\datico\AndroidStudioProjects\MoneyManager2\app\src\main\AndroidManifest.xml:28:13-32:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\datico\AndroidStudioProjects\MoneyManager2\app\src\main\AndroidManifest.xml:29:17-69
+41-->C:\Users\datico\AndroidStudioProjects\MoneyManager2\app\src\main\AndroidManifest.xml:29:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\datico\AndroidStudioProjects\MoneyManager2\app\src\main\AndroidManifest.xml:31:17-77
+43-->C:\Users\datico\AndroidStudioProjects\MoneyManager2\app\src\main\AndroidManifest.xml:31:27-74
+44            </intent-filter>
+45        </activity>
+46
+47        <service
+47-->[com.google.firebase:firebase-database:20.0.5] C:\Users\datico\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:29:9-35:19
+48            android:name="com.google.firebase.components.ComponentDiscoveryService"
+48-->[com.google.firebase:firebase-database:20.0.5] C:\Users\datico\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:30:13-84
+49            android:directBootAware="true"
+49-->[com.google.firebase:firebase-common:20.1.1] C:\Users\datico\.gradle\caches\transforms-3\506696c26b4b3d384c45df172a53cf0f\transformed\firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+50            android:exported="false" >
+50-->[com.google.firebase:firebase-database:20.0.5] C:\Users\datico\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:31:13-37
+51            <meta-data
+51-->[com.google.firebase:firebase-database:20.0.5] C:\Users\datico\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:32:13-34:85
+52                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+52-->[com.google.firebase:firebase-database:20.0.5] C:\Users\datico\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:33:17-109
+53                android:value="com.google.firebase.components.ComponentRegistrar" />
+53-->[com.google.firebase:firebase-database:20.0.5] C:\Users\datico\.gradle\caches\transforms-3\6b25239c94e176702af97081a24bac05\transformed\firebase-database-20.0.5\AndroidManifest.xml:34:17-82
+54            <meta-data
+54-->[com.google.firebase:firebase-firestore:24.2.1] C:\Users\datico\.gradle\caches\transforms-3\45ee0d53bd5a1a2fc3966f9f87f020ad\transformed\firebase-firestore-24.2.1\AndroidManifest.xml:20:13-22:85
+55                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+55-->[com.google.firebase:firebase-firestore:24.2.1] C:\Users\datico\.gradle\caches\transforms-3\45ee0d53bd5a1a2fc3966f9f87f020ad\transformed\firebase-firestore-24.2.1\AndroidManifest.xml:21:17-111
+56                android:value="com.google.firebase.components.ComponentRegistrar" />
+56-->[com.google.firebase:firebase-firestore:24.2.1] C:\Users\datico\.gradle\caches\transforms-3\45ee0d53bd5a1a2fc3966f9f87f020ad\transformed\firebase-firestore-24.2.1\AndroidManifest.xml:22:17-82
+57        </service>
+58
+59        <provider
+59-->[com.google.firebase:firebase-common:20.1.1] C:\Users\datico\.gradle\caches\transforms-3\506696c26b4b3d384c45df172a53cf0f\transformed\firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+60            android:name="com.google.firebase.provider.FirebaseInitProvider"
+60-->[com.google.firebase:firebase-common:20.1.1] C:\Users\datico\.gradle\caches\transforms-3\506696c26b4b3d384c45df172a53cf0f\transformed\firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+61            android:authorities="com.example.moneymanager.firebaseinitprovider"
+61-->[com.google.firebase:firebase-common:20.1.1] C:\Users\datico\.gradle\caches\transforms-3\506696c26b4b3d384c45df172a53cf0f\transformed\firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+62            android:directBootAware="true"
+62-->[com.google.firebase:firebase-common:20.1.1] C:\Users\datico\.gradle\caches\transforms-3\506696c26b4b3d384c45df172a53cf0f\transformed\firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+63            android:exported="false"
+63-->[com.google.firebase:firebase-common:20.1.1] C:\Users\datico\.gradle\caches\transforms-3\506696c26b4b3d384c45df172a53cf0f\transformed\firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+64            android:initOrder="100" />
+64-->[com.google.firebase:firebase-common:20.1.1] C:\Users\datico\.gradle\caches\transforms-3\506696c26b4b3d384c45df172a53cf0f\transformed\firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+65
+66        <activity
+66-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\datico\.gradle\caches\transforms-3\2e555aa60c2973d1a450e632503526ba\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+67            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+67-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\datico\.gradle\caches\transforms-3\2e555aa60c2973d1a450e632503526ba\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+68            android:exported="false"
+68-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\datico\.gradle\caches\transforms-3\2e555aa60c2973d1a450e632503526ba\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+69            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+69-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\datico\.gradle\caches\transforms-3\2e555aa60c2973d1a450e632503526ba\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+70
+71        <meta-data
+71-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\datico\.gradle\caches\transforms-3\49c827b69fa8a7f7c64c8edf0f9f028b\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+72            android:name="com.google.android.gms.version"
+72-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\datico\.gradle\caches\transforms-3\49c827b69fa8a7f7c64c8edf0f9f028b\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+73            android:value="@integer/google_play_services_version" />
+73-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\datico\.gradle\caches\transforms-3\49c827b69fa8a7f7c64c8edf0f9f028b\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+74    </application>
+75
+76</manifest>
