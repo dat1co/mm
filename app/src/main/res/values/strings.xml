@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MoneyManager</string>
+    <string name="bill">Счет</string>
+    <string name="outlay">Расходы</string>
+    <string name="bank">Копилка</string>
+    <string name="addmoney">Добавить</string>
+    <string name="money">0</string>
+    <string name="fixirovanno">В наличии:</string>
+    <string name="bankButton">Цели</string>
+    <string name="outlayButton">Расходы</string>
+    <string name="mainButton">В меню</string>
+    <string name="OutButton">Расходы</string>
+    <string name="text">В наличии:</string>
+    <string name="money2">1</string>
+    <string name="menubut">Меню</string>
+    <string name="moneybut">Счет</string>
+    <string name="bankbut">Копилка</string>
+</resources>
